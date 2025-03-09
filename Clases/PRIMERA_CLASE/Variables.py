@@ -6,17 +6,17 @@ Los mas comunes son los que almacenan nombre texto (strings(str)) este siempre s
 
 Python identifica el tipo de variable que se esta almacenando 
 
-DECLARACION DE VARIABLES 
+#*DECLARACION DE VARIABLES 
 
 numero_uno = 2
 numero_uno = 2.5
 numero_uno = "hola mundo"
 
-ESTE PUEDE DIFERENCIAR LAS MAYUSCULAS
+#*ESTE PUEDE DIFERENCIAR LAS MAYUSCULAS
 
 numero_uno = 2
 Numero_uno = 2.5
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 """
 print ("Esto es una suma")
 
@@ -28,7 +28,7 @@ resultado=numero_uno+numero_dos
 
 print("SU RESULTADO ES: ",resultado)
 
-#esto es un ejemplo para diferenciar mayusculas
+#*esto es un ejemplo para diferenciar mayusculas
 
 print ("Esto es una resta con ejemplo de diferencias de mayusculas")
 
