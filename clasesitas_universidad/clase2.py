@@ -1,7 +1,6 @@
 import math
 #para que python escojo un numero random
 import random
-
 """
 #primer ejercicio 
 def calcular_x (a,b,n):
@@ -17,7 +16,6 @@ b= float (input("ESCRIBE EL VALRO DE B"))
 resultado= calcular_x( a,b,n)
 print ("el resultado es: ", resultado)
 """
-
 """
 #segundo ejercicio 
 print ("Hola usuario adivina el numero")
@@ -36,7 +34,6 @@ while True:
         #esto termina el programa y hace que e salga del while true
         break
 """
-
 """
 #TERCER EJERCICIO
 def calcular_digito_seguridad(clave,codigo):
