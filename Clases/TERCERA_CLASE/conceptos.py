@@ -110,3 +110,53 @@ print ("el resultado de la division entera es "+ str(resultado))
 #* RESULTADO
 el resultado de la division entera es 3
 """
+#*PARTE 3: TIPOS DE DATOS
+"""
+Es un atributo de los datos que indica a la computadora y al programador, sobre la clase de datos que se va a manejar
+
+TIPOS DE DATOS:
+
+- Enteros y Largos: Los enteros son aquellos que no tienen decimalos, pueden ser tanto positivos como negativos y se pueden representar  mendianto el tipo int o el tipo long
+- Flotantes: Son los que tienen decimales y se representa como float 
+- Complejos: Son aquellos que tienen una parte real y una parte imaginaria y se representa como complex 
+- CADENA: es una secuencia de caracteres que se representa encerrado el texto entre comillas 
+- Booleanos: solo tener dos tipos de valores True o False, estos se usan principalmente para lo que son condicionales y bucles, se representa mediante el tipo bool
+"""
+#!------------------------------------------------------------------------------------------------------------
+#* EJERCICIO DE LA TERCERA PARTE
+#tipo de dato entero o largo
+
+numero_entero=10
+#imprimimos el numero y con (type) su tipo de dato
+#la coma puede separar todo lo que son valores numericos, si se quiere concatenar un string, seria con un (+)
+print (numero_entero,type(numero_entero))
+#resultado 10 <class 'int'>
+#*****************************************************************
+#tipo de dato flotante
+
+numero_flotante=10.5
+#imprimimos el numero y con (type) su tipo de dato
+print (numero_flotante,type(numero_flotante))
+#resultado 10.5 <class 'float'>
+#*****************************************************************
+#tipo de dato numero complejo
+
+numero_complejo=3j+2j
+#imprimimos el numero y con (type) su tipo de dato
+print (numero_complejo,type(numero_complejo))
+#resultado (3+2j) <class 'complex'>
+#*****************************************************************
+#tipo de dato string
+
+cadena="Hola, mundo!"
+
+#imprimimos el numero y con (type) su tipo de dato
+print (cadena,type(cadena))
+# resultado Hola, mundo! <class 'str'>
+#*****************************************************************
+#tipo de dato booleano
+#dos signos de igual es una comparacion y un solo signo de igual es una asignacion
+verdadero_falso= 3 == 3
+#imprimimos el numero y con (type) su tipo de dato
+print (verdadero_falso,type(verdadero_falso))
+# resultado True <class 'bool'>

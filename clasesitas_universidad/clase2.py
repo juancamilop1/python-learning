@@ -1,7 +1,7 @@
 import math
 #*para que python escojo un numero random (esto se usa en el ejercicio numero dos)
 import random
-#*primer ejercicio 
+#*PRIMER EJERCCIO  
 #*se crea una funcion que escriba la operacion necesaria 
 def calcular_x (a,b,n):
     suma=sum(((a-b)**i-3) for i in range(1,n+1))+n
@@ -20,7 +20,7 @@ resultado= calcular_x( a,b,n)
 print ("el resultado es: ", resultado)
 
 
-#*segundo ejercicio 
+#*SEGUNDO EJERCICIO
 print ("Hola usuario adivina el numero")
 #*creamos una variable que nos de un numero del 1 al 100
 numero_random=random.randint(1,100)
