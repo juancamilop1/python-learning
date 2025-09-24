@@ -1,6 +1,6 @@
 #calcule a con base en la siguiente formula a=p(pi)*(r)2
 #se importa esta libreria para hacer operaciones matematicas
-import math
+
 # si son iguales o no son  iguales
 """calcule base de x, si x es positivo entonces f(x)=(x-2)2+(x-4)4/2+(x-6)6/4*Z 
 Y si es negativo entonces f(x)=(x+2)2+(x+4)2/2+w"""

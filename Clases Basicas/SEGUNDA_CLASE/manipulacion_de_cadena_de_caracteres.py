@@ -3,7 +3,7 @@ es una serie de caracteres compuestas por letras, numeros, signos y simbolos, de
 
 Existen distintas operaciones para manejar estos, los cuales son: 
 #!---------------------------------------------------------------------------------------------------------------------------
--la asignacion: consiste en asignat una cadena de caracteres a otra, para lo cual es necesario utilizar el operador (+=)
+-la asignacion: consiste en asignar una cadena de caracteres a otra, para lo cual es necesario utilizar el operador (+=)
 
 EJEMPLO 
 
