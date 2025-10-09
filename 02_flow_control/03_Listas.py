@@ -76,8 +76,8 @@ print ("\nAgregar elementos a una lista")
 
 #Recuperar la longitud de una lista
 print ("\nRecuperar la longitud de una lista")
-# lista = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-# print (len(lista)) #Longitud de la lista
+lista = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print (len(lista)) #Longitud de la lista
 ###
 # EJERCICIOS
 ###
@@ -149,7 +149,7 @@ pan_abajo = ["pan abajo"]
 sandwich =pan+ingredientes+pan_abajo #Solucion
 print (sandwich)
 
-print ("--------------")
+print ("---------------------------------------------------------------")
 # Ejercicio 4: Duplicando la lista
 print ("\nEjercicio 4: Duplicando la lista")
 # Dada una lista:
@@ -159,7 +159,7 @@ print ("\nEjercicio 4: Duplicando la lista")
 lista = [1, 2, 3]
 lista2 = lista * 2 #Solucion
 print (lista2)
-print ("--------------")
+print ("-------------------------------------------------------------")
 # Ejercicio 5: Extrayendo el centro
 print ("\nEjercicio 5: Extrayendo el centro")
 # Dada una lista con un número impar de elementos, extrae el elemento que se encuentra en el centro de la lista utilizando slicing.
@@ -167,7 +167,7 @@ print ("\nEjercicio 5: Extrayendo el centro")
 lista = [10, 20, 30, 40, 50]
 lista_centro = len(lista)//2#esto lee cuantos elementos tiene la lista y lo divide entre 2 para obtener el centro
 print (f"El centro es: {lista[lista_centro]}")#Solucion
-print ("--------------")
+print ("-------------------------------------------------------------")
 # Ejercicio 6: Reversa parcial
 print ("\nEjercicio 6: Reversa parcial")
 # Dada una lista, invierte solo la primera mitad de la lista (utilizando slicing y concatenación).
