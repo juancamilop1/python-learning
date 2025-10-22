@@ -58,11 +58,10 @@ for index,animal in enumerate(animales):
     print (animal)
 
 print  ("-----------------------------------------------------")
-
 #comprension de listas (List Comprehension)
 print("\nComprension de listas (List Comprehension)")
 animales= ["perro", "gato", "pez", "loro", "tortuga"]
-animales_mayusculas = [animal.upper() for animal in animales] #convierte a mayusculas cada elemento de la lista
+animales_mayusculas = [animal.upper() for animal in animales] #convierte a mayusculas cada elemento de la lista, (List Comprehension)
 print (animales_mayusculas)
 
 #compresion de listas con if 
